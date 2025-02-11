@@ -1,0 +1,288 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.page1{
+    height: 70vh;
+    width: 100%;
+    
+}
+.navbar{
+    height: 15%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+
+}
+.logo{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    height: 50%;
+    width: 70%;
+}
+.list{
+    height: 100%;
+    width: 80%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.list li{
+    margin: 10px;
+    margin-top: 30px;
+    font-size: 22px;
+}
+.list button{
+    margin-right: 10px;
+    height: 40%;
+    width: 10%;
+    background-color: orangered;
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.main{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/banner\ \(1\).webp);
+    background-size: cover;
+}
+.main h1{
+    font-weight: 900;
+    font-size: 90px;
+}
+.main p{
+    font-size: 30px;
+    font-weight: 200;
+    margin-top: -15px;
+}
+.page2{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    width: 50%;
+    height: 100%;
+    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.image img{
+    width: 350px;
+    height: 250px;
+    left: 10%;
+    position: relative;
+    border-radius: 5%;
+    bottom:2%;
+
+}
+.text{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.text h2{
+margin-top: 40px;
+}
+.text p{
+    font-size: 20px;
+}
+.text button{
+    height: 55px;
+    width: 185px;
+    border-radius: 35px;
+    border: none;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    background-color: orangered;
+    margin-top: 30px;
+}
+.page3{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.page4{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.page5{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.final{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.divide{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.faqs{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.faqs input{
+    margin: 10px;
+    height: 45px;
+    width: 350px;
+    position: relative;
+    left: 10%;
+    font-size: 17px;
+}
+.question{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.question input{
+    margin: 10px;
+    height: 45px;
+    width: 350px;
+    font-size: 17px;
+}
+
+.final button{
+    height: 55px;
+    width: 175px;
+    border-radius: 35px;
+    border: none;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    background-color: orangered;
+    margin-top: 30px;
+}
+.page7{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 248, 255);
+}
+.hello{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hello img{
+    width: 125px;
+    height: 50px;
+}
+.info{
+    display: flex;
+    height: 40%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.about{
+    width: 15%;
+    height: 100%;
+    
+    margin: 20px;
+    align-items: start;
+
+}
+.about ul{
+    list-style: none;
+    font-weight: 100;
+    font-size: 20px;
+    position: relative;
+    right: 20%;
+}
+.aboutus{
+    width: 15%;
+    height: 100%;
+    
+    margin: 20px;
+
+}
+.aboutus h3{
+    position: relative;
+    left: 80%;
+}
+.aboutus ul{
+    list-style: none;
+}
+.reviews{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mail{
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+.mail input{
+    height: 35px;
+
+}
+.mail button{
+    height: 40px;
+    color: white;
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    margin-left: -3px;
+}
+.null{
+    width: 25%;
+}

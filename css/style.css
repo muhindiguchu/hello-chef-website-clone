@@ -1,0 +1,517 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.page1{
+    height: 100vh;
+    width: 100%;
+    
+}
+.navbar{
+    height: 15%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+
+}
+.logo{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    height: 50%;
+    width: 70%;
+}
+.list{
+    height: 100%;
+    width: 80%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.list li{
+    margin: 10px;
+    margin-top: 30px;
+    font-size: 22px;
+}
+.list button{
+    margin-right: 10px;
+    height: 40%;
+    width: 10%;
+    background-color: orangered;
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.container{
+    width: 100%;
+    height: 85%;
+background-image: url(/images/banner.webp);
+background-size: cover;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.container h1{
+    font-size: 45px;
+    font-weight: 800;
+}
+.container p{
+    font-size: 25px;
+}
+.container button{
+    height: 10%;
+    width: 18%;
+    border: none;
+    background-color: orangered;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.page2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.header{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 20%;
+}
+.header h5{
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: -2px;
+}
+.images{
+    display: flex;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.convenience{
+    height: 100%;
+    width: 30%;
+}
+.convenience img{
+    width: 100%;
+    border-radius: 5%;
+}
+.variety{
+    height: 100%;
+    width: 30%;
+}
+.variety img{
+    width: 100%;
+    height: 260px;
+    border-radius: 5%;
+}
+.deliciousness{
+    height: 100%;
+    width: 30%;
+}
+.deliciousness img{
+    height: 260px;
+    width: 100%;
+    border-radius: 5%;
+}
+.ul{
+    list-style: none;
+    font-weight: 100;
+}
+.page3{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.right{
+    height: 100%;
+    width: 50%;
+    background-image: url(/images/Family_cooking.webp);
+    background-size: cover;
+}
+.left{
+    height: 100%;
+width: 50%;
+background-color:rgb(248, 221, 234);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.left h1{
+    color: orangered;
+    margin-right: 45%;
+    font-size: 35px;
+    font-weight: 800;
+}
+.left p{
+    margin-top: -9px;
+    margin-left: 10%;
+    font-weight: 200;
+    font-size: 20px;
+}
+.left ol{
+    margin-right: 55%;
+    font-weight: 500;
+}
+.left button{
+    height: 8%;
+    width: 27%;
+    border: none;
+    background-color: orangered;
+    border-radius: 30px;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    margin-right: 55%;
+    margin-top: 15px;
+}
+/* revisit this */
+.page4{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.statement{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+.statement p{
+    font-weight: 200;
+    font-size: 20px;
+}
+.slide{
+    display: flex;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.child{
+    width:30%;
+    height: 100%;
+}
+.slide img{
+    width: 100%;
+    height: 250px;
+    
+}
+.chef{
+    color:white;
+    background-color: burlywood;
+margin-left: 75%;
+margin-bottom: 45px;
+position: relative;
+bottom: 40px;
+border-radius: 30px;
+border: none;
+height: 35px;
+width: 90px;
+}
+.fam{
+    color:white;
+    background-color:brown;
+margin-left: 65%;
+margin-bottom: 45px;
+position: relative;
+bottom: 40px;
+border-radius: 30px;
+border: none;
+height: 35px;
+width: 115px;
+}
+.mini{
+    color:white;
+    background-color: cadetblue;
+margin-left: 80%;
+margin-bottom: 45px;
+position: relative;
+bottom: 40px;
+border-radius: 30px;
+border: none;
+height: 35px;
+width: 70px;
+}
+ .button{
+    height: 55px;
+    width: 200px;
+    border: none;
+    background-color: orangered;
+    border-radius: 30px;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+/* end of pg4 */
+.page5{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 150vh;
+    width: 100%;
+}
+.begin{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.begin img{
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+.begin h1{
+    font-size: 40px;
+    font-weight: 300;
+}
+.pictures{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.pic{
+    height: 100%;
+    width: 20%;
+}
+.pic img{
+width: 247px;
+height:200px;    
+}
+.end{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -220px;
+}
+.end h3{
+    font-size: 35px;
+    font-weight: 200;
+    text-align: center;
+}
+.end span{
+    color: orangered;
+}
+.rating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rating p{
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 20px;
+}
+.google{
+    height: 30px;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.star{
+    margin-right: 15px;
+    margin-top: 12%;
+}
+.certification{
+    height: 15%;
+    width: 70%;
+    background-color: whitesmoke;
+    display: flex;
+border-radius: 5px;
+    flex-direction: column;
+}
+.certification button{
+
+    position: relative;
+    /* bottom: -20%; */
+    margin-top: -7%;
+    left: 30%;
+    color:white;
+    background-color: orangered;
+top: 30px;
+border-radius: 30px;
+border: none;
+height: 25px;
+width: 40px;
+}
+.certification h1{
+    font-size: 20px;
+}
+.certification p{
+    /* margin-top: -77px; */
+    font-size: 20px;
+    margin-top: 50px;
+}
+.page6{
+    width: 100%;
+    height: 120vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+background-image: url(/images/subscribe.webp);
+background-size: cover;
+text-align: center;
+}
+.page6 p{
+    font-weight: 100;
+    margin-top: 100px;
+}
+.form{
+    width: 80%;
+    height: 40%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form h1{
+    font-weight: 900;
+}
+.form p{
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: -10px;
+}
+.div{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div input{
+    width: 38%;
+    height: 46%;
+    
+}
+.div button{
+    background-color: orangered;
+    color: white;
+    width: 9%;
+    height: 48%;
+    border-radius: 5px;
+    border: orangered;
+}
+.div p{
+    font-weight: 50;
+    font-size: 13;
+    bottom: 29px;
+    left: 100px;
+    position: relative;
+}
+.page7{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+.hello{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hello img{
+    width: 125px;
+    height: 50px;
+}
+.info{
+    display: flex;
+    height: 40%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.about{
+    width: 15%;
+    height: 100%;
+    
+    margin: 20px;
+    align-items: start;
+
+}
+.about ul{
+    list-style: none;
+    font-weight: 100;
+    font-size: 20px;
+    position: relative;
+    right: 20%;
+}
+.aboutus{
+    width: 15%;
+    height: 100%;
+    
+    margin: 20px;
+
+}
+.aboutus h3{
+    position: relative;
+    left: 80%;
+}
+.aboutus ul{
+    list-style: none;
+}
+.reviews{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mail{
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+.mail input{
+    height: 35px;
+
+}
+.mail button{
+    height: 40px;
+    color: white;
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    margin-left: -3px;
+}
+.null{
+    width: 25%;
+}
