@@ -286,3 +286,113 @@ margin-top: 40px;
 .null{
     width: 25%;
 }
+/* ...existing code... */
+
+/* Media Queries for Responsiveness */
+
+/* For devices with a max width of 1200px */
+@media (max-width: 1200px) {
+    .logo {
+        width: 15%;
+    }
+    .list li {
+        font-size: 18px;
+    }
+    .main h1 {
+        font-size: 70px;
+    }
+    .main p {
+        font-size: 25px;
+    }
+}
+
+/* For devices with a max width of 768px (tablets) */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .logo {
+        width: 30%;
+        justify-content: center;
+    }
+    .list {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .list li {
+        margin: 5px 0;
+        font-size: 16px;
+    }
+    .main h1 {
+        font-size: 50px;
+    }
+    .main p {
+        font-size: 20px;
+    }
+    .text h2 {
+        font-size: 24px;
+    }
+    .text p {
+        font-size: 16px;
+    }
+    .text button {
+        width: 150px;
+        height: 45px;
+    }
+    .image img {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+/* For devices with a max width of 480px (mobile phones) */
+@media (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .logo {
+        width: 50%;
+    }
+    .list {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .list li {
+        font-size: 14px;
+    }
+    .main h1 {
+        font-size: 40px;
+    }
+    .main p {
+        font-size: 16px;
+    }
+    .text h2 {
+        font-size: 20px;
+    }
+    .text p {
+        font-size: 14px;
+    }
+    .text button {
+        width: 120px;
+        height: 40px;
+    }
+    .image img {
+        width: 250px;
+        height: 150px;
+    }
+    .mail {
+        width: 90%;
+    }
+    .mail input {
+        width: 70%;
+    }
+    .mail button {
+        width: 25%;
+    }
+}

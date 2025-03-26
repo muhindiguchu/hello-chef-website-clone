@@ -515,3 +515,45 @@ text-align: center;
 .null{
     width: 25%;
 }
+.hide{
+    display: none;
+}
+@media(max-width:720px){
+    .navbar{
+        display: none;
+    }
+    .hide{
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+    }
+    .hidden{
+        display: none;
+        margin: 20px;
+    }
+    .hide:hover>.hidden{
+        height: max-content;
+        width: 40%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        background-color: grey;
+        position: absolute;
+        margin-top: 40px;
+    }
+    .hidden a{
+        text-decoration: none;
+        color: white;
+        margin: 20px;
+    }
+    .hidden button{
+
+    }
+    .container{
+        background-image: url(/images/salmon_katsu.webp);
+        background-size: cover;
+    }
+    .container button{
+        width: 70%;
+    }
+}
